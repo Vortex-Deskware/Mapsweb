@@ -1,0 +1,15 @@
+{
+  "name": "Mapsweb",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "description": "Mapsweb - Free & Open Source Google Maps desktop client by Vortex Deskware",
+  "author": "Vortex Deskware",
+  "devDependencies": {
+    "electron": "^16.2.8"
+  }
+}
